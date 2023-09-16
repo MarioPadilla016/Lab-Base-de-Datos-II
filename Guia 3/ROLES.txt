@@ -1,0 +1,143 @@
+ROLES
+
+	SysAdmin
+		+Gestionar Usuarios:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Roles:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar AsignacionRolesOpciones:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar AsignacionOpciones:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Empleados:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Cargos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+All privileges
+	Gerente
+		-Vendedor privileges
+		-Contador privileges
+		-Bodeguero priviliges
+		-RRHH priviliges
+		
+	Vendedor
+		+Gestionar Cliente:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Ventas:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+		
+		+Gestionar DetallesVentas:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Facturas:
+			- Agregar: INSERT
+			- Consultar : SELECT
+
+		+Gestionar Direcciones:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Departamentos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Municipios:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Distritos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+	Contador
+		+Gestionar Facturas:
+			- Consultar : SELECT
+
+		+Gestionar Ventas:
+			- Consultar : SELECT
+		
+		+Gestionar DetallesVentas:
+			- Consultar : SELECT
+
+		
+	Bodeguero
+		+Gestionar Productos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Pedidos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+		
+		+Gestionar DetallesPedidos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Proveedores:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+		
+
+	RRHH
+		+Gestionar Empleados:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Cargos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Direcciones:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Departamentos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Municipios:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE
+
+		+Gestionar Distritos:
+			- Agregar: INSERT
+			- Consultar : SELECT
+			- Modificar : UPDATE

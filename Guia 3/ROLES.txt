@@ -16,7 +16,7 @@ ROLES
 			- Consultar : SELECT
 			- Modificar : UPDATE
 
-		+Gestionar AsignacionOpciones:
+		+Gestionar Opciones:
 			- Agregar: INSERT
 			- Consultar : SELECT
 			- Modificar : UPDATE
@@ -39,7 +39,7 @@ ROLES
 		-RRHH priviliges
 		
 	Vendedor
-		+Gestionar Cliente:
+		+Gestionar Clientes:
 			- Agregar: INSERT
 			- Consultar : SELECT
 			- Modificar : UPDATE

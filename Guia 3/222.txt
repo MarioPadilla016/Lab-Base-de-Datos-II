@@ -1,0 +1,18 @@
+Asignacion	SysAdmin
+Cargos		SysAdmin
+Clientes	Vendedor
+Departamentos	Vendedor
+DetallePedidos	Bodeguero
+DetalleVentas	Vendedor Contador
+Direcciones	Vendedor
+Distritos	Vendedor
+Empleados	SysAdmin
+Facturas	Vendedor Contador
+Municipios	Vendedor
+Opciones	SysAdmin
+Pedidos		Bodeguero
+Productos	Bodeguero
+Proveedores	Bodeguero
+Roles		SysAdmin
+Usuarios	SysAdmin
+Ventas		Vendedor Contador
